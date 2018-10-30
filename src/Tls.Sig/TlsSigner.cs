@@ -73,7 +73,7 @@ namespace Tls.Sig
                 Identifier = signedTls.Identifier,
                 Time = signedTls.Time
             };
-            return ShaSigner.VerifySha256ECDS(tls.ToSignContent(), signaturedBytes, _keyChain.PublicKey);
+            return ShaSigner.VerifySha256ECDSA(tls.ToSignContent(), signaturedBytes, _keyChain.PublicKey);
         }
 
         private byte[] FromBase64UrlString(string str)

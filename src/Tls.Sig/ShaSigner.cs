@@ -26,7 +26,7 @@ namespace Tls.Sig
             return signer.GenerateSignature();
         }
 
-        public static bool VerifySha256ECDS(string message, byte[] signature, string publicKey)
+        public static bool VerifySha256ECDSA(string message, byte[] signature, string publicKey)
         {
             if (signature == null)
             {
