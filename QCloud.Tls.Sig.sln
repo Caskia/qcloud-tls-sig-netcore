@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37CBAF8F-90AD-4DE8-88FE-91A91142D8C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AC7B4889-5F73-4F48-80EB-60057326BF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tls.Sig", "src\Tls.Sig\Tls.Sig.csproj", "{BD637011-BEC8-41C9-8C38-A6C0F042D295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tls.Sig.Test", "test\Tls.Sig.Test\Tls.Sig.Test.csproj", "{F9BABB99-BE72-4538-9244-FF574FA17764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD637011-BEC8-41C9-8C38-A6C0F042D295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD637011-BEC8-41C9-8C38-A6C0F042D295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD637011-BEC8-41C9-8C38-A6C0F042D295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD637011-BEC8-41C9-8C38-A6C0F042D295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BABB99-BE72-4538-9244-FF574FA17764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BABB99-BE72-4538-9244-FF574FA17764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BABB99-BE72-4538-9244-FF574FA17764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BABB99-BE72-4538-9244-FF574FA17764}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD637011-BEC8-41C9-8C38-A6C0F042D295} = {37CBAF8F-90AD-4DE8-88FE-91A91142D8C1}
+		{F9BABB99-BE72-4538-9244-FF574FA17764} = {AC7B4889-5F73-4F48-80EB-60057326BF21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16B0789B-CDFA-47AD-AE90-0C170B9C1378}
+	EndGlobalSection
+EndGlobal
