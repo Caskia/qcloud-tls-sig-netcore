@@ -120,4 +120,5 @@ Logs.txt
 Logs.txt.*
 npm-debug.log.*
 logs/
-
+private_key
+public_key
