@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Tls.Sig
+namespace QCloud.Tls.Sig
 {
     public class Tls
     {

@@ -1,7 +1,7 @@
 ﻿using Shouldly;
 using Xunit;
 
-namespace Tls.Sig.Test
+namespace QCloud.Tls.Sig.Test
 {
     public class TlsSigner_Test
     {

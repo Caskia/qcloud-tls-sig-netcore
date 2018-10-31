@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Tls.Sig
+namespace QCloud.Tls.Sig
 {
     public class SignedTls : Tls
     {

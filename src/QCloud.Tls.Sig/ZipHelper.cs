@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using zlib;
 
-namespace Tls.Sig
+namespace QCloud.Tls.Sig
 {
     public class ZipHelper
     {

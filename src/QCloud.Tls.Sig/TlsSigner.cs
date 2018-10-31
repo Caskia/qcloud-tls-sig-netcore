@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tls.Sig
+namespace QCloud.Tls.Sig
 {
     public class TlsSigner
     {
@@ -77,12 +77,14 @@ namespace Tls.Sig
         }
 
         private byte[] FromBase64UrlString(string str)
-        {            var incoming = str.Replace('_', '=').Replace('-', '/').Replace('*', '+');
+        {
+            var incoming = str.Replace('_', '=').Replace('-', '/').Replace('*', '+');
             switch (str.Length % 4)
             {
                 case 2: incoming += "=="; break;
                 case 3: incoming += "="; break;
-            }            return Convert.FromBase64String(incoming);
+            }
+            return Convert.FromBase64String(incoming);
         }
 
         private string ToBase64UrlString(byte[] bits)
