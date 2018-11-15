@@ -1,5 +1,5 @@
-﻿using System.IO;
-using zlib;
+﻿using ComponentAce.Compression.Libs.zlib;
+using System.IO;
 
 namespace QCloud.Tls.Sig
 {
